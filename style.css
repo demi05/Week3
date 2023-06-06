@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Halant', serif;
+}
+main{
+    width: 90%;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+img{
+    max-width: 100%;
+}
+header{
+    display: flex;
+    align-items: center;
+    border: 2px solid #155EEF;
+    border-radius: 0.5rem;
+    margin-bottom: 1em;
+    padding: 0.5em 1.5em;
+}
+.jp_logo{
+    width: 18%;
+}
+nav{
+    margin-left: auto;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+li{
+    margin-right: 2em;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #041330;
+}
+.header_btn{
+    background-color: #fff;
+    border: 1px solid #155EEF;
+    border-radius: 0.5rem;
+    color: rgb(21, 94, 239, 1);
+    padding: 0.5em 1em;
+    width: 100%;
+    font-size: 1.1rem;
+}
+p{
+    color: #2E3A53;
+}
+button{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+}
+button:hover{
+    cursor: pointer;
+}
+.name_section,.about_section{
+    display: flex;
+    align-items: center;
+    gap: 3em;
+    border: 2px solid #155EEF;
+    border-radius: 0.5rem;
+    margin-bottom: 2em;
+    padding: 3em 1.5em;
+    font-size: 1.5rem;
+}
+.text_section{
+    width: 65%;
+}
+h1{
+    color: rgb(21, 94, 239, 1);
+    font-size: 3.5rem;
+    margin-bottom: 0.2em;
+    font-weight: 600;
+}
+.main_text1{
+    width: 87%;
+    margin-bottom: 1.3em;
+    letter-spacing: 0.5 px;
+    line-height: 1.25em;
+    font-family: 'Manrope', sans-serif;
+}
+.name_section_btn{
+    background-color: rgb(21, 94, 239, 1);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.8em 1.5em;
+    font-weight: 700;
+}
+.guy_pic{
+    border: 1px solid rgb(21, 94, 239, 1);
+    border-right: none;
+    padding: 0.3em;
+    width: 100%;
+}
+.about_section{
+    margin-bottom: 1EM;
+}
+h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 0.4em;
+    color: #041330,
+}
+.main_text2{
+    width: 90%;
+    margin-bottom: 1.2em;
+    font-family: 'Manrope', sans-serif;
+    line-height: 1.25em;
+    letter-spacing: 0.5 px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    padding: 0.25em 0.7em;
+    border: 2px solid #155EEF;
+    border-radius: 0.5rem;
+    width: 90%;
+    margin: 0 auto 2em auto;
+}
+.logos{
+    margin-left: auto;
+}
+.logo{
+    padding: 1em;
+}
+.logo:hover{
+    cursor: pointer;
+}
+footer p{
+    margin-left: auto;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #041330;
+}
+.logos{
+    display: flex;
+}
