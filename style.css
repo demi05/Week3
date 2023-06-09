@@ -41,6 +41,9 @@ li{
     font-weight: 500;
     color: #041330;
 }
+li:hover{
+    cursor: pointer;
+}
 .header_btn{
     background-color: #fff;
     border: 1px solid #155EEF;
