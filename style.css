@@ -119,6 +119,44 @@ h2{
     line-height: 1.25em;
     letter-spacing: 0.5 px;
 }
+.project_section{
+    border: 2px solid #155EEF;
+    border-radius: 0.5rem;
+    padding: 20em 0 20em 20em;
+    position: relative;
+}
+.main_text3{
+    width: 52%;
+    font-size: 1.5rem;
+    background-color: rgba(249, 251, 255, 1);
+    font-family: 'Manrope', sans-serif;
+    color: rgba(46, 58, 83, 1);
+    padding: 2em 1.1em;
+    position: absolute;
+    left: 2em;
+    /* top: 2em;  */
+    bottom: 3em;
+    z-index: 1;
+    letter-spacing: 0.5px;
+}
+.main_text3 h2{
+    color:  rgba(4, 19, 48, 1);
+    font-weight: 600;
+    font-size: 2.5rem;
+    font-family: 'Halant', serif;
+}
+.list_div{
+    padding: 0.5em;
+}
+.proj_img_section{
+    position: absolute;
+    right: 8em;
+    bottom: 1em;
+    width: 45%;
+}
+.proj_img_section img{
+    width: 100%;
+}
 footer{
     display: flex;
     align-items: center;
